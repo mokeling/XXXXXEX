@@ -1,0 +1,125 @@
+{
+    "version": 42,
+    "assets": [
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_serveropcode.05c166435aed8c08b57d6b0bdde55b6a1ad90a4baad631c416315357dd8d4826.json",
+            "fileName": "UIRes/serveropcode.json",
+            "hash": "BA5A9B1F02F700C820A15914D3754DD3F3F0F221"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_clientopcode.56c0d566d7723134be417ddd03e2a31e31fc90cc67f03bacf416918391496455.json",
+            "fileName": "UIRes/clientopcode.json",
+            "hash": "3758C1C7E6C79E87AA67EB2DE1514FBF06F87DBA"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/gamous/XIVLauncherEX/main/Asset/bannedplugin.json",
+            "fileName": "UIRes/bannedplugin.json",
+            "hash": "97D170E1550EEE4AFC0AF065B78CDA302A97674C"
+        },
+        {
+            "url": "https://mirrors.ustc.edu.cn/CTAN/fonts/notocjksc/NotoSansCJKsc-Medium.otf",
+            "fileName": "UIRes/NotoSansCJKsc-Medium.otf",
+            "hash": "C8AC9E680749BF31536971BC51DB257DDBAF3E68"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_FontAwesome5FreeSolid.fb1e674e11c048c3429c8c054079c60c2dfc12ad353f9f9699a4e340f82f29e9.otf",
+            "fileName": "UIRes/FontAwesome5FreeSolid.otf",
+            "hash": "893A372F71B73FA3A58A02CFDA43A7B34CDA337A"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_MaterialIcons-Regular.bc66ff963b638caf6fdeb18428a75e55bd329f4aac1d50249d3345e0531d58f3.ttf",
+            "fileName": "UIRes/MaterialIcons-Regular.ttf",
+            "hash": "40C76A23C94EC06287C97AD29031325BA1290886"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_Inconsolata-Regular.127875d255d4c5973ca57267a43bb9d1c04397e6c7d236984a595b6cdcb12b7c.ttf",
+            "fileName": "UIRes/Inconsolata-Regular.ttf",
+            "hash": "FBE9E14427D84CE3F25F4D6A8EF57F527DB5A154"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_defaultIcon.25c07e5aeaf38ab34bbed56e22d0c5f0609f9363bce4e9d4fca1aac6b5596263.png",
+            "fileName": "UIRes/defaultIcon.png",
+            "hash": "81185C2BCC5DF0B52B610187EB3B9671C7FB0568"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_disabledIcon.27c19f6d3b5bcaeacb1e9a87381f25cd05982c88ad3ee95491cadc07942be1fa.png",
+            "fileName": "UIRes/disabledIcon.png",
+            "hash": "3AFC19400A6475198503DCC25314BCBCDC03B929"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_troubleIcon.a07038486b3ec15c12c87657bfb8b4fa8f6209703a692bfde8d7e10ef846433e.png",
+            "fileName": "UIRes/troubleIcon.png",
+            "hash": "82F7C168A9C712BFCBADD7CFD49060BBC446A634"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_updateIcon.8a9df6dc1e842931135827de3326b5cc2afec65efb333c8b376a3c9451fbf29d.png",
+            "fileName": "UIRes/updateIcon.png",
+            "hash": "544DA1125ADC03D63610127DC76E1FC5175615D3"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_logo.dc1cfc25731bb3157f741240ec9c9162935ac3e22e654bf17270e9bd640e5d7b.png",
+            "fileName": "UIRes/logo.png",
+            "hash": "AEFA0F4FB7A15391CE210142015ABFD753D803C9"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_tsmShade.768055731d94c99ad37f55d01974409de3bca3f584b9fc8ca444d0584beb5a9a.png",
+            "fileName": "UIRes/tsmShade.png",
+            "hash": "C32B342537A80393104408C9A04A362ADEDED590"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_tsmLogo.898d6435231a0c512cde11ffd2226fd8f8e776652e34a81c78f9bde4e34edc57.png",
+            "fileName": "UIRes/tsmLogo.png",
+            "hash": "DE459754DB1A8B74D2E021496747D65BEC893795"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_installedIcon.880fb297822d54c30130fe388e2aa6d41f2c5d821b47dd7432cd7c9ebb07864a.png",
+            "fileName": "UIRes/installedIcon.png",
+            "hash": "4533CAD6C29FD2A0D68AF5C4576DC159CB9C4A53"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_thirdIcon.62082bb5f57077ad772110aeb462b790d5fec08583d94f0f6b39d09a9242951c.png",
+            "fileName": "UIRes/thirdIcon.png",
+            "hash": "F81DC3F9C467E138C25028418593AD99772DB606"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_thirdInstalledIcon.c38567c35258381466d12f099c1356db51a2ce841fcd079ce27f5761e6eb8ef5.png",
+            "fileName": "UIRes/thirdInstalledIcon.png",
+            "hash": "507FF41AE651D15E6A29A09C1B5FD7936CF79CD3"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_de.d8d876b01e4b483608a0be865868ec98b332115892c6348d7d64a4da87993349.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_de.json",
+            "hash": "A6F954A417160959F50C87FCFC5C0C97CAEDB989"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_es.effefdcde9ddf411f92a914b04429fe58d462709ef0881062f90876105a033b8.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_es.json",
+            "hash": "4B1AE598344E61C6BC67E0D72D704FB6FCC89526"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_fr.5d47376f101177ed4a1b17c2c722bbbc564ff4f63c80161ca4c7082aebc3019d.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_fr.json",
+            "hash": "61DC82090635BBBA43C325435C1041D03529358A"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_it.ffe92f4dfb10e35d071f3ae7cecec041a49c7d15e4e0bd35e124998c06a9c036.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_it.json",
+            "hash": "0D4666E4EB84DE3386BF79B2BE514E7CF721D44B"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_ja.8dce26039ea96bee58ab3b92b523ec4e327b0b81ed4c4c8115dc711f609c458b.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_ja.json",
+            "hash": "09A3C4F9A6643FBB273E65C0482E12704081C14D"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/dalamud_dalamud_zh.3c8aa81f84c0db531ce548e66739881a40c27eb6f3764435c468b110e9fba7be.json",
+            "fileName": "UIRes/loc/dalamud/dalamud_zh.json",
+            "hash": "A0DD219F6721FE87174B55CEA29058F88060743E"
+        },
+        {
+            "url": "https://aonyx.ffxiv.wang/File/Get/UIRes_gamesym.0d545502dd13665aacef9f21c9e260ab2c092e6c10e2668b4d206cf8249943e8.ttf",
+            "fileName": "UIRes/gamesym.ttf",
+            "hash": "89BC6B5015EF0EDFA5AE272B3A406B54CF61C6F1"
+        }
+    ]
+}
