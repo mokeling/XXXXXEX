@@ -12,6 +12,11 @@
             "Hash": "D50FA526463316828A55CAC39710CF468458EAB6"
         },
         {
+            "Url": "https://aonyx.ffxiv.wang/File/Get/bannedplugin.c7f2786b3519780919061de2af2012f27a88541a20b607a15b897cd3bf7473a3.json",
+            "FileName": "UIRes/bannedplugin_ori.json",
+            "Hash": "76B8B41EC4D013F44325F9A3829CF62312D85F0E"
+        },
+        {
             "Url": "https://raw.githubusercontent.com/gamous/XIVLauncherEX/main/Asset/bannedplugin.json",
             "FileName": "UIRes/bannedplugin.json",
             "Hash": "97D170E1550EEE4AFC0AF065B78CDA302A97674C"
