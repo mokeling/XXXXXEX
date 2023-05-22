@@ -2,6 +2,8 @@
 
 天地万象を我が意のままに！
 
+XLCN Version:6.3.2.0
+
 ## PATCH
 
 工具：[dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy)
@@ -28,7 +30,64 @@ brtrue.s
 
 **跳过支持版本验证**
 
+##### DalamudLauncher.CanRunDalamud
 
+无视支持版本强制启动
+
+
+##### DalamudUpdater.UpdateDalamud
+
+IL:65
+```
+br 76(00ED)	ldloc.3
+```
+
+无视Key验证进入测试通道
+
+#### Dalamud.Support
+
+##### EventTracking.SendMeasurement
+
+IL:9
+```
+br 180 pop
+```
+
+停止发送统计(如果crash就只改下面的或改chathandler)
+
+IL:130 ldstr
+
+```
+ldstr "https://127.0.0.1"
+```
+
+##### EventTracking.BannedLength
+
+IL:19 ldstr
+
+```
+"bannedplugin_ori.json"
+```
+
+前置：修改过CheckAssetRefreshNeeded中的meta地址
+发送统计的情况下发送正常bannedplugins长度 
+
+#### Dalamud.Game
+
+##### ChatHandlers.OnChatMessage
+
+IL:40 ldloc.0
+
+```
+br 57 ldarg.1
+```
+另一种停止发送统计
+
+#### Dalamud.Plugin.Internal
+
+##### PluginManager.IsManifestBanned
+
+另一种取消插件黑名单
 
 ## CONFIG
 
@@ -36,7 +95,7 @@ brtrue.s
 
 "DalamudBetaKey": **[Version["Key"]](https://github.com/ottercorp/dalamud-distrib/blob/main/stg/version)**
 
-Dalamud测试通道
+Dalamud测试通道KEY
 
 
 
