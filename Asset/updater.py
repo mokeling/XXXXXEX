@@ -27,6 +27,7 @@ fakecheat = {
     "FileName": "UIRes/cheatplugin.json",
     "Hash": readable_hash}
 
+print(f"Hash: {readable_hash}")
 meta["Assets"].append(fakecheat)
 
 with codecs.open("meta", "w") as f:
