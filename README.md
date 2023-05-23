@@ -37,9 +37,9 @@ brtrue.s
 
 ##### DalamudUpdater.UpdateDalamud
 
-IL:65
+IL:74
 ```
-br 76(00ED)	ldloc.3
+br.s 76(00ED)	ldloc.3
 ```
 
 无视Key验证进入测试通道
@@ -48,12 +48,7 @@ br 76(00ED)	ldloc.3
 
 ##### EventTracking.SendMeasurement
 
-IL:9
-```
-br 180 pop
-```
-
-停止发送统计(如果crash就只改下面的或改chathandler)
+停止发送统计
 
 IL:130 ldstr
 
@@ -61,16 +56,9 @@ IL:130 ldstr
 ldstr "https://127.0.0.1"
 ```
 
-##### EventTracking.BannedLength
+##### EventTracking.CheatBannedLength
 
-IL:19 ldstr
-
-```
-"bannedplugin_ori.json"
-```
-
-前置：修改过CheckAssetRefreshNeeded中的meta地址
-发送统计的情况下发送正常bannedplugins长度 
+不修改
 
 #### Dalamud.Game
 
@@ -88,6 +76,10 @@ br 57 ldarg.1
 ##### PluginManager.IsManifestBanned
 
 另一种取消插件黑名单
+
+###### PluginManager.PluginManager
+
+`bannedplugin.json`和`cheatplugin.json`长度检查
 
 ## CONFIG
 
@@ -113,9 +105,5 @@ XL启动器本体设置
 | IsPreRelease              | XL_PRERELEASE             | 开启XL启动器测试版本 |
 | IsNoRunas                 | XL_NO_RUNAS               |                      |
 | IsIgnoreSpaceRequirements | XL_NO_SPACE_REQUIREMENTS" |                      |
-
-
-
-### 
 
 > https://aonyx.ffxiv.wang/Dalamud/Asset/Meta
