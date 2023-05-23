@@ -20,6 +20,10 @@ IL:19 ldstr
 
 取消插件黑名单
 
+只是为了Unban的话后面的都不用看了
+
+**请勿分发Patch过的文件 否则停止更新**
+
 ##### DalamudLauncher.ReCheckVersion
 
 IL:10  brfalse.s
