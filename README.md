@@ -12,7 +12,7 @@ XLCN Version:6.3.2.0
 
 ##### AssetManager.CheckAssetRefreshNeeded
 
-IL:19 ldstr
+IL:26 ldstr
 
 ```
 "https://raw.githubusercontent.com/gamous/XIVLauncherEX/main/Asset/meta"
